@@ -1,0 +1,51 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+<!--    //servelt context, accessible to all servlets-->
+    <context-param>
+        <param-name>supportEmail</param-name>
+        <param-value>support@mail.com</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>environment</param-name>
+        <param-value>development</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>org.example.HelloServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ReportServlet</servlet-name>
+        <servlet-class>org.example.ReportServlet</servlet-class>
+
+        <init-param>
+            <param-name>maxUploadSize</param-name>
+            <param-value>104647474</param-value>
+        </init-param>
+        <init-param>
+            <param-name>allowedExtension</param-name>
+            <param-value>.pdf</param-value>
+        </init-param>
+    </servlet>
+
+<!--    servlet mapping-->
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ReportServlet</servlet-name>
+        <url-pattern>/api/report</url-pattern>
+    </servlet-mapping>
+</web-app>

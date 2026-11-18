@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CoolRequestCookiePersistent">
+    <option name="cookies" value="[&#10;  {&#10;    &quot;domain&quot; : &quot;google.com&quot;,&#10;    &quot;infos&quot; : [&#10;      {&#10;        &quot;createTimeMillis&quot; : 1794825126858,&#10;        &quot;raw&quot; : &quot;AEC=Aaa9EJpZjb6GxDRGSWeQ5Am5QyvDed4Wj3vKwgI9mH-7N0-z9FR3Vj8HVw; expires=Sat, 15-May-2027 10:32:06 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax&quot;,&#10;        &quot;requestURL&quot; : &quot;https://google.com&quot;&#10;      },&#10;      {&#10;        &quot;createTimeMillis&quot; : 1794825126859,&#10;        &quot;raw&quot; : &quot;__Secure-ENID=CvIBCAISpAEBY3DFei_bep5g2txAKdFfF4ANiM3sXRFoF5zDMMrRzFjyUheEBYZz77E7jWIhSJZFP97OwmVRbqPH5tscp4ib83RL17TZlSiTfUw9ZQ8CRvzBRcaAC2ZZypZxDyYQY-eK7gDbFF9lB1uXX5J3wKFp1rXh1US-knUcoCVCz7JPREdcJiUbfuUpJ91z_UFGQ0_KxWGN6OiyGq62lINHooiqS333figCMkUB-wj8aonLdb_lfLBD653ONSSlxLwjlTwNqhjhoxrfMzHNz0bAVcpovVryDH_kbzEG9Dj6iUfsCxoz0zb1kiz2Ks1uRgo; expires=Fri, 17-Dec-2027 02:50:24 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax&quot;,&#10;        &quot;requestURL&quot; : &quot;https://google.com&quot;&#10;      }&#10;    ]&#10;  }&#10;]" />
+  </component>
+</project>
